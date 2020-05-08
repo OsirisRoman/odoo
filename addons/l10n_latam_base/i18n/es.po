@@ -76,7 +76,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_latam_base.field_res_users__vat
 #: model_terms:ir.ui.view,arch_db:l10n_latam_base.view_partner_latam_form
 msgid "Identification Number"
-msgstr "Número de Identificación"
+msgstr "Número de identificación"
 
 #. module: l10n_latam_base
 #: model:ir.model.fields,help:l10n_latam_base.field_res_partner__vat
@@ -100,7 +100,7 @@ msgstr "Tipos de Identificación"
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type__is_vat
 msgid "Is Vat"
-msgstr "Es Identificación Fiscal?"
+msgstr "Es RUC/Cédula?"
 
 #. module: l10n_latam_base
 #: model:ir.model.fields,field_description:l10n_latam_base.field_l10n_latam_identification_type____last_update
@@ -161,4 +161,4 @@ msgstr "Tipo"
 #. module: l10n_latam_base
 #: model:l10n_latam.identification.type,name:l10n_latam_base.it_vat
 msgid "VAT"
-msgstr ""
+msgstr "RUC/Cédula"

@@ -330,7 +330,7 @@ msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
-"No se permite cambiar el número de IVA una vez que se han emitido los "
+"No se permite cambiar el RUC/Cédula una vez que se han emitido los "
 "documentos de su cuenta. Póngase en contacto con nosotros directamente para "
 "esta operación."
 
@@ -880,7 +880,7 @@ msgstr "Usuarios"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "VAT Number"
-msgstr "NIF"
+msgstr "RUC/Cédula"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids

@@ -5145,7 +5145,7 @@ msgstr "Uuid"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "VAT:"
-msgstr "CIF/NIF:"
+msgstr "RUC/Cédula:"
 
 #. module: point_of_sale
 #. openerp-web

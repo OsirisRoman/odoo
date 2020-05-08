@@ -5224,7 +5224,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Muestre la dirección de su empresa / socio en Google Maps. Configure una clave API en la parte de Configuraciones del Sitio Web\n"
+"Muestre la dirección de su empresa / contacto en Google Maps. Configure una clave API en la parte de Configuraciones del Sitio Web\n"
 "   "
 
 #. module: base
@@ -8334,7 +8334,7 @@ msgid ""
 "A partner with the same <span><span class=\"o_vat_label\">Tax "
 "ID</span></span> already exists ("
 msgstr ""
-"Ya existe un socio con la misma <span><span "
+"Ya existe un contacto con la misma <span><span "
 "class=\"o_vat_label\">identificación fiscal</span></span> ("
 
 #. module: base
@@ -13032,7 +13032,7 @@ msgid ""
 "partner is a customer without access or with a limited access created for "
 "sharing data."
 msgstr ""
-"Ya sea cliente (no usuario), como usuario compartido. Indica si el socio "
+"Ya sea cliente (no usuario), como usuario compartido. Indica si el contacto "
 "actual es un cliente sin acceso o con un acceso limitado creado para "
 "compartir datos."
 
@@ -22846,12 +22846,12 @@ msgstr "Buscar empresa"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_partner_category_view_search
 msgid "Search Partner Category"
-msgstr "Buscar categoría de socio"
+msgstr "Buscar categoría de contacto"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_partner_industry_view_search
 msgid "Search Partner Industry"
-msgstr "Búsqueda en la industria del socio"
+msgstr "Buscar industria del contacto"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__search_view
@@ -24103,7 +24103,7 @@ msgstr "Registros de tareas"
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
 #: model:ir.model.fields,field_description:base.field_res_users__vat
 msgid "Tax ID"
-msgstr "NIF"
+msgstr "RUC/Cédula"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_taxcloud_delivery
@@ -24314,7 +24314,7 @@ msgid ""
 "The Tax Identification Number. Complete it if the contact is subjected to "
 "government taxes. Used in some legal statements."
 msgstr ""
-"El número de identificación de impuesto. Complételo si el contacto está "
+"El RUC/Cédula. Complételo si el contacto está "
 "sujeto a los impuestos del gobierno. Utilizado en algunas declaraciones "
 "legales."
 
@@ -26155,12 +26155,12 @@ msgstr "Uzbekistán"
 #: model:res.country,vat_label:base.se model:res.country,vat_label:base.si
 #: model:res.country,vat_label:base.sk model:res.country,vat_label:base.uk
 msgid "VAT"
-msgstr "NIF"
+msgstr "RUC/Cédula"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
 msgid "VAT Number Validation"
-msgstr "Validación de número CIF"
+msgstr "Validación de RUC/Cédula"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_voip

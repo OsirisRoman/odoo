@@ -38,7 +38,7 @@ msgstr ""
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.view_partner_form
 msgid "<span class=\"o_vat_label\">VAT</span>"
-msgstr "<span class=\"o_vat_label\">NIF</span>"
+msgstr "<span class=\"o_vat_label\">RUC/Cédula</span>"
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_res_company
@@ -62,7 +62,7 @@ msgid ""
 "VAT number cannot be verified by the European VIES service."
 msgstr ""
 "Si esta casilla de verificación está marcada, no podrá guardar un contacto "
-"si el CIF no puede validarse por el servicio VIES."
+"si el RUC/Cédula de este no se puede validar usando el servicio europeo VIES."
 
 #. module: base_vat
 #: code:addons/base_vat/models/res_partner.py:188
@@ -71,7 +71,7 @@ msgid ""
 "The VAT number [%s] for partner [%s] does not seem to be valid. \n"
 "Note: the expected format is %s"
 msgstr ""
-"El NIF [%s] para la empresa [%s] no parece ser válido.\n"
+"El RUC/Cédula [%s] del contacto [%s] no parece ser válido.\n"
 "Nota: el formato esperado es %s"
 
 #. module: base_vat
@@ -81,23 +81,23 @@ msgid ""
 "The VAT number [%s] for partner [%s] either failed the VIES VAT validation "
 "check or did not respect the expected format %s."
 msgstr ""
-"El NIF [%s] para la empresa [%s] o bien falla en la comprobación de "
-"validación VIES o no respeta el formato esperado %s."
+"El RUC/Cédula [%s] del contacto [%s] o bien falla en la "
+"validación europea VIES o no respeta el formato esperado %s."
 
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.company_form_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base_vat.view_partner_short_form
 msgid "VAT"
-msgstr "NIF"
+msgstr "RUC/Cédula"
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_company__vat_check_vies
 #: model:ir.model.fields,field_description:base_vat.field_res_config_settings__vat_check_vies
 msgid "Verify VAT Numbers"
-msgstr "Verificar números NIF"
+msgstr "Verificar RUC/Cédula"
 
 #. module: base_vat
 #: model_terms:ir.ui.view,arch_db:base_vat.res_config_settings_view_form
 msgid "Verify VAT numbers using the European VIES service"
-msgstr "Verificar números NIF usando el servicio VIES"
+msgstr "Verificar RUC/Cédula usando el servicio europeo VIES"

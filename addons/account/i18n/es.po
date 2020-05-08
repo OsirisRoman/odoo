@@ -2156,7 +2156,7 @@ msgstr "Aplicar solo si el pais del envío o de la factura coincide"
 #: model:ir.model.fields,help:account.field_account_fiscal_position__vat_required
 #: model:ir.model.fields,help:account.field_account_fiscal_position_template__vat_required
 msgid "Apply only if partner has a VAT number."
-msgstr "Aplicar solo si el cliente tiene un número de identificación fiscal"
+msgstr "Aplicar solo si el socio tiene RUC"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -2948,7 +2948,7 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"No se permite cambiar el número de VAT(Identificación Fiscal) una vez que se"
+"No se permite cambiar el número de Cédula/RUC una vez que se"
 " hayan emitido las facturas para su cuenta. Por favor contáctenos "
 "directamente para esta operación."
 
@@ -4680,7 +4680,7 @@ msgstr "Reportes dinámicos"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_l10n_eu_service
 msgid "EU Digital Goods VAT"
-msgstr "VAT de bienes digitales de la UE"
+msgstr "Impuesto a artículos digitales de la Unión Europea"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_EXW
